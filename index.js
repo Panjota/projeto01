@@ -6,6 +6,8 @@ const { MongoClient, ObjectId } = require('mongodb');
 const url="mongodb+srv://alexandropantoja:r8PI6Gp3lOXt6rbi@cluster0.673mx.mongodb.net";
 // cria um cliente com a url criada
 const client = new MongoClient(url);
+const dbName = "backend-abril-24";
+
 
 async function main(){
 
