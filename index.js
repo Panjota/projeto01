@@ -30,7 +30,7 @@ async function main(){
 
   // endpoint /oi
   app.get('/oi', function (req, res) {
-    res.send('Olá, mundo')
+    res.send('Olá, Ocean Backend')
   })
 
   //lista
